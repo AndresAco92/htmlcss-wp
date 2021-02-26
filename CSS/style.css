@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+/* inserimento clearfix */
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* formatazione primaria del corpo pagina */
+.formatazione-pg{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* contenitore header */
+img{
+  height: 80px;
+  border-right: 1px solid  rgb(231, 231, 231);
+  padding-right: 20px;
+}
+
+nav{
+  width: 100%;
+  height: 95px;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  padding-right: 15px;
+  line-height: 95px;
+  vertical-align: middle;
+}
+
+nav li a{
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+}
+
+nav li a:hover{
+  color: rgb(229, 121, 230);
+    
+}
+
+header .banner{
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.cover{
+  height: 100%;
+  width: auto;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.banner .scritte{
+  width: 50%;
+  padding: 330px 10px 50px 50px;
+  color: white;
+  vertical-align: bottom;
+}
+
+/* main */
+main{
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+main .col{
+  float: left;
+}
+
+/* contenitore main */
+.intestazione{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+h1{
+  font-size: 35px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+main .left{
+  width: 20%;
+}
+
+main .main-content{
+  width: 56%;
+  margin: 0 2%;
+}
+
+main .right{
+  width: 20%;
+}
+
+.left .immagine1{
+  background-image: url(../img/img-1.jpg);
+}
+
+.immagine2{
+  background-image: url(../img/banner-2.jpg);
+}
+
+.immagine3{
+  background-image: url(../img/img-3.jpg);
+}
+
+.immagine1,
+.immagine2,
+.immagine3{
+  background-position: center;
+  margin-bottom: 15px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* footer */
+footer{
+  height: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: auto;
+}
+
+footer .name::after{
+  content: '\2665';
+  color: rgb(255, 0, 0);
+  font-size: 25px;
+}
